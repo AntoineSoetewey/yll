@@ -4,7 +4,6 @@ Title: Compute Expected Years of Life Lost (YLL) and Average YLL
 Version: 0.0.0.9000
 Authors@R: person("Antoine", "Soetewey", email = "antoine.soetewey@uclouvain.be",
                   role = c("aut", "cre"))
-Maintainer: Antoine Soetewey <antoine.soetewey@uclouvain.be>
 Description: Computes the standard expected years of life lost (YLL),
     as developed by the Global Burden of Disease Study
     (Murray, C.J., Lopez, A.D. and World Health Organization, 1996).
