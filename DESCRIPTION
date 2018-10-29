@@ -1,0 +1,22 @@
+Package: yll
+Type: Package
+Title: Compute Expected Years of Life Lost (YLL) and Average YLL
+Version: 0.0.0.9000
+Authors@R: person("Antoine", "Soetewey", email = "antoine.soetewey@uclouvain.be",
+                  role = c("aut", "cre"))
+Maintainer: Antoine Soetewey <antoine.soetewey@uclouvain.be>
+URL: https://www.antoinesoetewey.com/
+Description: Computes the standard expected years of life lost (YLL),
+    as developed by the Global Burden of Disease Study
+    (Murray, C.J., Lopez, A.D. and World Health Organization, 1996).
+    The YLL is based on comparing the age of death to an external standard life
+    expectancy curve. It also computes the average YLL, which highlights premature
+    causes of death and brings attention to preventable deaths
+    (Aragon et al., 2008).
+Depends: R (>= 3.5.1)
+License: GPL (>= 2)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.0
+Suggests: 
+    testthat
