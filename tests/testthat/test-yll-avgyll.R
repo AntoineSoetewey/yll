@@ -1,0 +1,17 @@
+test_that("10 equals 10", {
+
+  expect_equal(10, 10)
+
+})
+
+test_that("yll works properly", {
+
+  expect_equal(yll(1, 20, 0), 0)
+
+})
+
+test_that("avg_yll works properly", {
+
+  expect_equal(avg_yll(1, 20, 0), 0)
+
+})
