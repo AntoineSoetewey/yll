@@ -10,6 +10,18 @@ test_that("yll works properly", {
 
 })
 
+test_that("gives an error if missing value", {
+
+  expect_error(yll(0, 2))
+
+})
+
+test_that("gives an error if non-numeric value", {
+
+  expect_error(yll("a", 0, 20))
+
+})
+
 test_that("avg_yll works properly", {
 
   expect_equal(avg_yll(1, 20, 0), 0)
