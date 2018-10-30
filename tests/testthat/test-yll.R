@@ -1,12 +1,12 @@
 test_that("10 equals 10", {
 
-  expect_equal(10, 10)
+  expect_identical(10, 10)
 
 })
 
 test_that("yll works properly", {
 
-  expect_equal(yll(1, 20, 0), 0)
+  expect_identical(yll(1, 20, 0), 0)
 
 })
 
@@ -22,8 +22,8 @@ test_that("gives an error if non-numeric value", {
 
 })
 
-test_that("avg_yll works properly", {
+test_that("output of yll is numeric", {
 
-  expect_equal(avg_yll(1, 20, 0), 0)
+  expect_output(str(yll(20,20,20)), class = "num")
 
 })
