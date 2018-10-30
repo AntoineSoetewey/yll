@@ -5,10 +5,6 @@ date: "`r format(Sys.time(), '%d %B, %Y')`"
 output: html_document
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
 ## Test environments
 * local macOS X (version 10.13.6), R 3.5.1
 * travis-ci, R 3.5.1
