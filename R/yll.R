@@ -14,8 +14,7 @@
 #' @param ndeaths Number of deaths (numeric).
 #' @param avg.age.death Average age of death (numeric).
 #' @param life.expectancy The interpolated life expectancy at that age. In other
-#'   words, the expected remaining number of years to live if the person would
-#'   have lived (numeric).
+#'   words, the expected remaining number of years to live (numeric).
 #' @param discount.rate Discount rate (default is set to 0.03) (numeric).
 #' @param beta Age-weighting constant (default is set to 0.04) (numeric).
 #' @param modulation Age-weighting modulation constant (= 0, no weighting; = 1,
@@ -30,6 +29,10 @@
 #'   & Katz, M. H. (2008). Calculating expected years of life lost for assessing
 #'   local ethnic disparities in causes of premature death. \emph{BMC public
 #'   health, 8}(1), 116.
+#' @references Murray, C. J., Lopez, A. D., & World Health
+#'   Organization. (1996). The global burden of disease: a comprehensive
+#'   assessment of mortality and disability from diseases, injuries, and risk
+#'   factors in 1990 and projected to 2020: summary.
 #'
 #' @seealso \code{\link{avg_yll}} for the average years of life lost.
 #'

@@ -13,8 +13,7 @@ avg_yll(ndeaths, avg.age.death, life.expectancy, discount.rate = 0.03,
 \item{avg.age.death}{Average age of death (numeric).}
 
 \item{life.expectancy}{The interpolated life expectancy at that age. In other
-words, the expected remaining number of years to live if the person would
-have lived (numeric).}
+words, the expected remaining number of years to live (numeric).}
 
 \item{discount.rate}{Discount rate (default is set to 0.03) (numeric).}
 
