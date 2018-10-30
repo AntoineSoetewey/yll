@@ -12,6 +12,7 @@ knitr::opts_chunk$set(
   out.width = "100%"
 )
 ```
+
 # `yll` - Why should I use it?
 
 The purpose of the package `yll` is to easily compute the standard expected years of life lost (YLL), as developed by the Global Burden of Disease Study (Murray, C.J., Lopez, A.D. and World Health Organization, 1996). The YLL is based on comparing the age of death to an external standard life expectancy curve. The goal of the package `yll` is also to easily compute the average YLL, which highlights premature causes of death and brings attention to preventable deaths (Aragon et al., 2008). 
