@@ -7,4 +7,4 @@ output: html_document
 
 # `yll` 1.0.0
 
-* First release of the `yll` package
+* First release of the `yll` package on [CRAN](https://CRAN.R-project.org/package=yll)
