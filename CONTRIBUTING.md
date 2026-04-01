@@ -23,12 +23,12 @@ Feature requests are welcome. Please open an issue on [GitHub](https://github.co
 
 ### Submitting Pull Requests
 
-1. Fork the repository and create a new branch from `master`.
+1. Fork the repository and create a new branch from the default branch.
 2. Make your changes, following the code style of the existing codebase.
 3. Add or update tests in the `tests/` directory as appropriate.
 4. Ensure all existing tests pass by running `devtools::test()`.
 5. Update documentation if you change or add functionality (edit `.Rd` files or use `roxygen2` comments).
-6. Open a pull request against the `master` branch with a clear description of your changes.
+6. Open a pull request against the default branch with a clear description of your changes.
 
 ## Code Style
 
