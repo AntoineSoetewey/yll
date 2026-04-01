@@ -33,8 +33,13 @@ Feature requests are welcome. Please open an issue on [GitHub](https://github.co
 ## Code Style
 
 - Follow the [tidyverse style guide](https://style.tidyverse.org/) for R code.
-- Use `snake_case` for variable and function names.
-- Keep lines to a maximum of 80 characters where possible.
+- Use `snake_case` for object and function names in new code.
+- For arguments, keep the existing public API conventions:
+  - If a function already uses dotted argument names (e.g., `avg.age.death`,
+    `discount.rate`), continue to use dotted names for any new or modified
+    arguments so the API stays consistent.
+  - For new functions, prefer `snake_case` argument names unless matching an
+    existing dotted-name API clearly improves consistency.
 
 ## Code of Conduct
 
