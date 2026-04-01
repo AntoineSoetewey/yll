@@ -77,6 +77,10 @@ res <- avg_yll(100, 60, 20, discount.rate = 0)
 res
 ```
 
+## Contributing
+
+Contributions are welcome! Please read the [contributing guidelines](CONTRIBUTING.md) before opening an issue or submitting a pull request.
+
 #### References
 
 Aragon, T. J., Lichtensztajn, D. Y., Katcher, B. S., Reiter, R., & Katz, M. H. (2008). Calculating expected years of life lost for assessing local ethnic disparities in causes of premature death. *BMC public health, 8*(1), 116.
